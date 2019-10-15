@@ -6,6 +6,7 @@ public class Question1 {
           public static double calculateTotalPayment(double initialLevelOfDebt, double interestPercentage, double repaymentPercentage) {
         double fixedRe=(repaymentPercentage*initialLevelOfDebt)/100;
         if(fixedRe<50){
+	fixedRe=50;
           fixedRe=50;
         }
         double temp=initialLevelOfDebt;
